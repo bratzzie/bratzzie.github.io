@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Pokemon Card Generator",
+    "imageSrc": "projects/pokemonProjects.png",
+    "source": "https://github.com/bratzzie/pokemon-card-generator"
+  },
+  {
+    "title": "ULT Mushroom Helper",
+    "imageSrc": "projects/mushroomsProject.png",
+    "source": "https://github.com/bratzzie/the_ultimate_mushroom_helper"
+  },
+  {
+    "title": "Coming soon..",
+    "imageSrc": "projects/project.jpg",
+    "source": "https://www.github.com"
+  }
+]

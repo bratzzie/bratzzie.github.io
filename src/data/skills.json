@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "Spring",
+    "imageSrc": "skills/spring.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python(1).png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/js-file.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.png"
+  },
+  {
+    "title": "GCP",
+    "imageSrc": "skills/google-cloud.png"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/aws.png"
+  }
+]

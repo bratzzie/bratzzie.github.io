@@ -1,0 +1,133 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  font-size: 65px;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  font-family: "Bevan", serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-left: 30vw;
+  margin-bottom: 40px;
+  z-index: 100;
+}
+
+.horizontalContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flowerImg {
+  width: 10%;
+  z-index: 1;
+  transform: rotate(-0.05turn);
+}
+
+.box {
+  flex: 1;
+  padding: 0 40px 0px 40px;
+  z-index: 100;
+}
+
+.bigBox {
+  flex: 2;
+}
+
+h3 {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  margin-top: 10%;
+  z-index: 100;
+}
+
+.solidLine {
+  border-top: 1px solid var(--color-text-dark);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 14px;
+}
+
+.skills {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 17px;
+}
+
+p {
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.smallShrift {
+  font-size: 15px;
+}
+
+hr {
+  margin-bottom: 10px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85px;
+  height: 80px;
+}
+
+.skillImageContainer {
+  width: 75px;
+}
+
+.skillImage {
+  width: 60px;
+  height: 60px;
+}
+.skill p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+
+  .title {
+    font-size: 2em;
+    margin-left: 0;
+  }
+
+  .skills {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
